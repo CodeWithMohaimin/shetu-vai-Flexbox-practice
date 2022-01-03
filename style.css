@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.from2{
+    box-shadow: 0 0 10px 0 #000;
+    margin: 100px auto;
+    width: 350px;
+    background: #fff;
+    padding: 50px 25px ;
+    
+}
+
+.body2{
+    background-image: url("Login Form Design/image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+input{
+    width: 95%;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #999;
+    padding-left: 20px;
+    
+}
+.inputTeam{
+    margin: 20px auto;
+    position: relative;
+}
+label{
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    background: #fff;
+    padding: 0 5px;
+    color: darksalmon;
+}
+button{
+    border: 1px solid darkorange;
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+
+}
+button:hover{
+    background: darkorange;
+    color: #fff;
+    border-radius: 40px;
+    transition: all .7s ease;
+}
+h2{
+    font-family: sans-serif;
+    color: darkorange;
+    text-align: center;
+    width: 200px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    margin: -80px auto 80px;
+    box-shadow: 2px 3px 20px rgb(56, 56, 56);
+}
+.otherPlartfrom img{
+   width: 40px;
+   margin: 20px 5px;
+   cursor: pointer;
+
+}
+.otherPlartfrom{
+   text-align: center;
+}
+.footer2{
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-family: sans-serif;
+}

@@ -28,7 +28,7 @@ nav div a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8em 20px;
+    padding: 4em 20px;
     flex-wrap: wrap;
     background: rgb(58, 61, 83);
     color: #fff;
@@ -59,4 +59,27 @@ nav div a{
 .heroImage img{
     width: 100%;
     max-width: 700px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+footer img{
+    width: 50px;
+    margin: 0 20px;
+}
+.logoImage{
+    background: rgb(58, 61, 83);
+    display: flex;
+    justify-content: center;
+    padding: 4em 0;
+    align-items: center;
+}
+.logoImage img{
+    width: 300px;
+    border-radius:100%;
+    border: 8px solid rgb(122, 93, 189);
 }
